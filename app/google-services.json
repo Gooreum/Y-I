@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501894002285",
+    "firebase_url": "https://tribal-mapper-202805.firebaseio.com",
+    "project_id": "tribal-mapper-202805",
+    "storage_bucket": "tribal-mapper-202805.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501894002285:android:7e9894e5100d59e7",
+        "android_client_info": {
+          "package_name": "com.example.goo.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501894002285-so9kpreegvru1s36i5pk0v2b3mn9ucub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goo.test",
+            "certificate_hash": "a7497b5a1919212b1200283f6f976c978bd57c63"
+          }
+        },
+        {
+          "client_id": "501894002285-fsfmclcro5fnd18h4d1pjd1hl907fta8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClt_KF33b_NOyzNybyONfKsDeuOBextxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501894002285-fsfmclcro5fnd18h4d1pjd1hl907fta8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_reply"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    >
+
+
+
+
+        <android.support.design.widget.CoordinatorLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+
+                >
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll|snap" />
+            </android.support.design.widget.AppBarLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="55dp">
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/swipe_refresh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    >
+                <ExpandableListView
+                    android:id="@+id/expLV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:divider="@android:color/transparent" />
+                </android.support.v4.widget.SwipeRefreshLayout>
+                <LinearLayout
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/color_cursor_white"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:id="@+id/reply_content_relative"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/text_reply_to"
+                            android:layout_width="300dp"
+                            android:layout_height="40dp"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="아이디"
+                            android:textSize="15dp"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/cancel"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_toRightOf="@id/text_reply_to"
+                            android:background="@android:color/darker_gray"
+                            android:src="@drawable/ic_clear_black_24dp"
+                            android:visibility="gone" />
+
+                        <EditText
+                            android:id="@+id/edit_reply"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@id/text_reply_to"
+                            android:hint="댓글" />
+
+                        <Button
+                            android:id="@+id/btn_send"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/text_reply_to"
+                            android:text="전송" />
+
+                        <Button
+                            android:id="@+id/btn_re_send"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/text_reply_to"
+                            android:text="전송"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+
+</FrameLayout>

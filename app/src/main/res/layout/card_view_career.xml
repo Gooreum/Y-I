@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mCardView"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ai"
+            />
+        <TextView
+
+           android:layout_marginTop="5dp"
+            android:id="@+id/position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="직함"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/img"
+            />
+
+        <TextView
+            android:layout_below="@id/position"
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="관심사 내용"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/img"
+            />
+
+        <TextView
+            android:id="@+id/start_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20012년 11월 -"
+            android:layout_below="@id/company"
+            android:layout_toRightOf="@id/img"
+            />
+
+        <TextView
+            android:id="@+id/end_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20012년 11월"
+            android:layout_below="@id/company"
+            android:layout_toRightOf="@id/start_day"
+            />
+
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대한민국 사당"
+            android:layout_below="@id/start_day"
+            android:layout_toRightOf="@id/img"
+            />
+        <View
+            android:layout_below="@id/region"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_toRightOf="@id/img"
+            android:layout_marginTop="8dp"
+            android:background="#d7d7d7"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

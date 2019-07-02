@@ -1,0 +1,10 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 148 ciObject found
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitParameter (Ljava/lang/String;I)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitAnnotationDefault ()Lorg/objectweb/asm/AnnotationVisitor; 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitAnnotation (Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor; 2073 1 296 0 -1
+ciMethod 

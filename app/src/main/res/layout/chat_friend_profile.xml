@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        android:background="@color/wallet_holo_blue_light"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_clear_black_24dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/prof_pic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prof_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="이름"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_below="@id/username">
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_chat_black_24dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/stream"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/chat"
+            android:src="@drawable/ic_chat_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/txt_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chat"
+            android:layout_marginRight="30dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="1:1채팅"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_stream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영상통화"
+            android:layout_toRightOf="@id/txt_chat"
+            android:layout_marginLeft="0dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_below="@id/stream"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

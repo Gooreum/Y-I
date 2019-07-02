@@ -1,0 +1,21 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 101 ciObject found
+ciMethod org/objectweb/asm/MethodWriter visitIincInsn (II)V 3097 1 384 0 -1
+instanceKlass org/objectweb/asm/Handler
+instanceKlass org/objectweb/asm/tree/TryCatchBlockNode
+instanceKlass java/util/zip/ZipOutputStream$XEntry
+instanceKlass sun/util/calendar/CalendarUtils
+instanceKlass sun/util/calendar/CalendarDate
+instanceKlass java/util/TimeZone$1
+instanceKlass sun/util/calendar/ZoneInfoFile$ZoneOffsetTransitionRule
+instanceKlass java/io/DataInput
+instanceKlass sun/util/calendar/ZoneInfoFile$1
+instanceKlass sun/util/calendar/ZoneInfoFile
+instanceKlass java/util/TimeZone
+instanceKlass sun/util/calendar/CalendarSystem
+instanceKlass java/util/Date
+instanceKlass org/objectweb/asm/Edge
+instanceKlass org/objectweb/asm/tree/LocalVariableNode
+instanceKlass org/objectweb/asm/tree/InsnList

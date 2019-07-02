@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prof_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/text_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prof_pic"
+            android:text="nova"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gps2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_username"
+            android:layout_toRightOf="@id/prof_pic"
+            android:text="위치"
+            android:textSize="11dp" />
+
+
+        <EditText
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prof_pic"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/white"
+            android:hint="제목" />
+
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/white"
+            android:hint="내용"
+            android:layout_marginBottom="50dp"
+            android:lines="10" />
+
+
+
+            <EditText
+                android:id="@+id/apply_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/content"
+                android:hint="모집기간"
+                />
+            <EditText
+                android:id="@+id/dev_duration"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/apply_duration"
+                android:hint="개발기간"
+                />
+            <EditText
+                android:id="@+id/member_num"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dev_duration"
+                android:hint="모집인원"
+                />
+
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/content"
+            android:text="전송"
+
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
+</ScrollView>

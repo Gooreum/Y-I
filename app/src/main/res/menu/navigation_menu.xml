@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/d_day"
+        android:title="D-Day"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+
+    <item
+        android:id="@+id/notification"
+        android:title="공지사항"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+
+    <item
+        android:id="@+id/change_room_name"
+        android:title="방제목변경"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+
+    <item
+        android:id="@+id/out"
+        android:title="강퇴하기"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+    <item
+        android:id="@+id/streaming"
+        android:title="그룹영상통화"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+    <item
+        android:id="@+id/recruit"
+        android:title="추가모집"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+    <item
+        android:id="@+id/project_quit"
+        android:title="프로젝트 그만두기"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+    <item
+        android:id="@+id/project_done"
+        android:title="프로젝트 완료"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+
+</menu>

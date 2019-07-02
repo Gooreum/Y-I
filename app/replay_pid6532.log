@@ -1,0 +1,162 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 387 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 121589 0 0
+ciMethod java/lang/String charAt (I)C 4097 1 246280 0 128
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 3257 12905 3514 0 -1
+ciMethod java/lang/String hashCode ()I 2713 32769 1409 0 -1
+ciMethod java/lang/String toCharArray ()[C 3073 1 2519 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 6145 1 768 0 -1
+ciMethod java/lang/Float <init> (F)V 585 1 122 0 0
+ciMethod java/lang/Float intBitsToFloat (I)F 585 1 73 0 -1
+ciMethod java/lang/Number <init> ()V 3129 1 2071 0 0
+ciMethod java/lang/Double <init> (D)V 9 1 114 0 0
+ciMethod java/lang/Double longBitsToDouble (J)D 25 1 3 0 -1
+ciMethod java/lang/Integer <init> (I)V 2065 1 734 0 0
+ciMethod java/lang/Integer intValue ()I 1089 1 136 0 -1
+ciMethod java/lang/Long <init> (J)V 2049 1 258 0 0
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List addAll (Ljava/util/Collection;)Z 0 0 1 0 -1
+ciMethod java/util/List subList (II)Ljava/util/List; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2049 1 2960 0 0
+ciMethod java/util/AbstractCollection <init> ()V 505 1 3285 0 0
+ciMethod java/util/ArrayList <init> (I)V 2177 1 1541 0 -1
+ciMethod java/lang/Math max (II)I 385 1 2864 0 -1
+ciMethod java/util/Arrays asList ([Ljava/lang/Object;)Ljava/util/List; 2057 1 564 0 0
+ciMethodData java/lang/String charAt (I)C 2 246280 orig 264 56 157 92 103 0 0 0 0 176 61 8 19 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 65 0 30 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x3c008 0xa0007 0x3c008 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/lang/Object <init> ()V 2 121589 orig 264 56 157 92 103 0 0 0 0 128 4 8 19 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 169 199 14 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object; 2153 1 2191 0 0
+ciMethod java/util/Arrays$ArrayList <init> ([Ljava/lang/Object;)V 2057 1 564 0 0
+ciMethodData java/lang/Number <init> ()V 2 2071 orig 264 56 157 92 103 0 0 0 0 200 228 17 19 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 1 0 0 129 52 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x690 oops 0
+ciMethodData java/lang/Long <init> (J)V 1 258 orig 264 56 157 92 103 0 0 0 0 112 146 18 19 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 17 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2 oops 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 3285 orig 264 56 157 92 103 0 0 0 0 64 115 20 19 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 0 0 0 177 100 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xc96 oops 0
+ciMethodData java/lang/String toCharArray ()[C 2 2670 orig 264 56 157 92 103 0 0 0 0 232 110 8 19 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 113 71 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 20 0 0 0 0 0 data 2 0x140002 0x8ee oops 0
+ciMethodData java/lang/Integer <init> (I)V 1 734 orig 264 56 157 92 103 0 0 0 0 40 82 18 19 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 225 14 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1dc oops 0
+ciMethodData java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object; 2 2191 orig 264 56 157 92 103 0 0 0 0 0 112 28 19 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 13 1 0 0 17 60 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 6 0x10007 0x782 0x30 0x0 0x80002 0x0 oops 0
+ciMethodData java/util/AbstractList <init> ()V 2 2960 orig 264 56 157 92 103 0 0 0 0 160 95 20 19 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 129 84 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xa90 oops 0
+ciMethod org/objectweb/asm/ClassReader a (Lorg/objectweb/asm/MethodVisitor;Lorg/objectweb/asm/Context;I)V 1401 74345 859 0 -1
+ciMethod org/objectweb/asm/ClassReader a (Lorg/objectweb/asm/MethodVisitor;Lorg/objectweb/asm/Context;IZ)[I 0 0 1 0 -1
+ciMethod org/objectweb/asm/ClassReader a (Lorg/objectweb/asm/Context;I)I 0 0 1 0 -1
+ciMethod org/objectweb/asm/ClassReader a (I[CZLorg/objectweb/asm/AnnotationVisitor;)I 337 33 136 0 -1
+ciMethod org/objectweb/asm/ClassReader a (Lorg/objectweb/asm/Context;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/ClassReader a (IZZLorg/objectweb/asm/Context;)I 2177 3625 1926 0 -1
+ciMethod org/objectweb/asm/ClassReader a ([Ljava/lang/Object;II[C[Lorg/objectweb/asm/Label;)I 4097 1 2471 0 -1
+ciMethod org/objectweb/asm/ClassReader readLabel (I[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Label; 4097 1 9184 0 -1
+ciMethod org/objectweb/asm/ClassReader readByte (I)I 0 0 1 0 0
+ciMethod org/objectweb/asm/ClassReader readUnsignedShort (I)I 2609 1 61370 0 160
+ciMethod org/objectweb/asm/ClassReader readShort (I)S 3641 1 4904 0 0
+ciMethod org/objectweb/asm/ClassReader readInt (I)I 4097 1 1831 0 192
+ciMethod org/objectweb/asm/ClassReader readLong (I)J 17 1 115 0 0
+ciMethod org/objectweb/asm/ClassReader readUTF8 (I[C)Ljava/lang/String; 2073 1 9753 0 2048
+ciMethod org/objectweb/asm/ClassReader a (II[C)Ljava/lang/String; 665 11065 1161 0 -1
+ciMethod org/objectweb/asm/ClassReader readClass (I[C)Ljava/lang/String; 4097 1 12129 0 256
+ciMethod org/objectweb/asm/ClassReader readConst (I[C)Ljava/lang/Object; 377 1 928 0 0
+ciMethod org/objectweb/asm/ClassWriter newUTF8 (Ljava/lang/String;)I 2105 1 7895 0 3008
+ciMethod org/objectweb/asm/ClassWriter a (Ljava/lang/String;)Lorg/objectweb/asm/Item; 4097 1 2571 0 0
+ciMethod org/objectweb/asm/ClassWriter newClass (Ljava/lang/String;)I 4097 1 2175 0 0
+ciMethod org/objectweb/asm/ClassWriter a (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lorg/objectweb/asm/Item; 4097 1 2135 0 0
+ciMethod org/objectweb/asm/ClassWriter newNameType (Ljava/lang/String;Ljava/lang/String;)I 3881 1 1575 0 0
+ciMethod org/objectweb/asm/ClassWriter a (Ljava/lang/String;Ljava/lang/String;)Lorg/objectweb/asm/Item; 3881 1 1606 0 0
+ciMethod org/objectweb/asm/ClassWriter c (Ljava/lang/String;)I 0 0 1 0 -1
+ciMethod org/objectweb/asm/ClassWriter a (Ljava/lang/String;I)I 0 0 1 0 -1
+ciMethod org/objectweb/asm/ClassWriter a (Lorg/objectweb/asm/Item;)Lorg/objectweb/asm/Item; 2105 129 5706 0 224
+ciMethod org/objectweb/asm/ClassWriter b (Lorg/objectweb/asm/Item;)V 1401 1 5322 0 832
+ciMethod org/objectweb/asm/ClassWriter a (III)V 2217 1 3029 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitAttribute (Lorg/objectweb/asm/Attribute;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitFrame (II[Ljava/lang/Object;I[Ljava/lang/Object;)V 4097 1 1923 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitInsn (I)V 3729 1 5048 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitIntInsn (II)V 3153 1 570 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitVarInsn (II)V 4097 1 11283 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitTypeInsn (ILjava/lang/String;)V 2089 1 555 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitFieldInsn (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 3273 1 5708 0 5792
+ciMethod org/objectweb/asm/MethodVisitor visitMethodInsn (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitMethodInsn (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V 3409 1 4249 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitInvokeDynamicInsn (Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitJumpInsn (ILorg/objectweb/asm/Label;)V 4097 1 2399 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitLabel (Lorg/objectweb/asm/Label;)V 3137 1 5500 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitLdcInsn (Ljava/lang/Object;)V 3657 1 476 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitIincInsn (II)V 1265 1 77 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitTableSwitchInsn (IILorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V 209 1 21 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitLookupSwitchInsn (Lorg/objectweb/asm/Label;[I[Lorg/objectweb/asm/Label;)V 81 1 8 0 0
+ciMethod org/objectweb/asm/MethodVisitor visitMultiANewArrayInsn (Ljava/lang/String;I)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitInsnAnnotation (ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor; 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitTryCatchBlock (Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Ljava/lang/String;)V 2049 1 24 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitLocalVariable (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;I)V 3209 1 1412 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitLocalVariableAnnotation (ILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;[ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor; 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitLineNumber (ILorg/objectweb/asm/Label;)V 4097 1 3907 0 -1
+ciMethod org/objectweb/asm/MethodVisitor visitMaxs (II)V 4097 1 862 0 -1
+ciMethod org/objectweb/asm/Attribute read (Lorg/objectweb/asm/ClassReader;II[CI[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Attribute; 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodWriter visitFrame (II[Ljava/lang/Object;I[Ljava/lang/Object;)V 2193 2841 936 0 -1
+ciMethod org/objectweb/asm/MethodWriter visitMethodInsn (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V 4097 1 2135 0 0
+ciMethod org/objectweb/asm/MethodWriter visitJumpInsn (ILorg/objectweb/asm/Label;)V 2049 1 1190 0 -1
+ciMethod org/objectweb/asm/MethodWriter visitLabel (Lorg/objectweb/asm/Label;)V 3073 1 4946 0 0
+ciMethod org/objectweb/asm/MethodWriter a (ILorg/objectweb/asm/Label;)V 2169 1 4905 0 0
+ciMethod org/objectweb/asm/MethodWriter e ()V 825 1 993 0 -1
+ciMethod org/objectweb/asm/MethodWriter b (Lorg/objectweb/asm/Frame;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodWriter f ()V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodWriter a (III)I 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodWriter b ()V 0 0 1 0 -1
+ciMethod org/objectweb/asm/MethodWriter a (Ljava/lang/Object;)V 3025 1 1195 0 -1
+ciMethod org/objectweb/asm/Label <init> ()V 4097 1 11457 0 0
+ciMethod org/objectweb/asm/Label a (Lorg/objectweb/asm/MethodWriter;Lorg/objectweb/asm/ByteVector;IZ)V 2561 1 1393 0 -1
+ciMethod org/objectweb/asm/Label a (Lorg/objectweb/asm/MethodWriter;I[B)Z 3073 641 4946 0 0
+ciMethod org/objectweb/asm/Label a ()Lorg/objectweb/asm/Label; 0 0 1 0 -1
+ciMethod org/objectweb/asm/ByteVector <init> ()V 4097 1 1542 0 -1
+ciMethod org/objectweb/asm/ByteVector putByte (I)Lorg/objectweb/asm/ByteVector; 1289 1 5286 0 -1
+ciMethod org/objectweb/asm/ByteVector a (II)Lorg/objectweb/asm/ByteVector; 537 1 1861 0 0
+ciMethod org/objectweb/asm/ByteVector putShort (I)Lorg/objectweb/asm/ByteVector; 2849 1 6654 0 288
+ciMethod org/objectweb/asm/ByteVector b (II)Lorg/objectweb/asm/ByteVector; 4097 1 5632 0 352
+ciMethod org/objectweb/asm/ByteVector putUTF8 (Ljava/lang/String;)Lorg/objectweb/asm/ByteVector; 1009 19273 1152 0 -1
+ciMethod org/objectweb/asm/ByteVector a (I)V 97 1 581 0 0
+ciMethod org/objectweb/asm/Item <init> (ILorg/objectweb/asm/Item;)V 1401 1 5295 0 128
+ciMethod org/objectweb/asm/Item a (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 2073 1 5721 0 2144
+ciMethod org/objectweb/asm/Item a (Lorg/objectweb/asm/Item;)Z 1105 1 11632 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode visitFrame (II[Ljava/lang/Object;I[Ljava/lang/Object;)V 4097 1 939 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitInsn (I)V 4097 1 2814 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode visitIntInsn (II)V 2097 1 403 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode visitVarInsn (II)V 2361 1 5596 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode visitTypeInsn (ILjava/lang/String;)V 2089 1 296 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode visitFieldInsn (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 4097 1 3213 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitMethodInsn (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V 4097 1 2259 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitJumpInsn (ILorg/objectweb/asm/Label;)V 3345 1 1190 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitLabel (Lorg/objectweb/asm/Label;)V 4097 1 4642 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitLdcInsn (Ljava/lang/Object;)V 2089 1 171 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitIincInsn (II)V 633 1 39 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitTableSwitchInsn (IILorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V 105 1 10 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitLookupSwitchInsn (Lorg/objectweb/asm/Label;[I[Lorg/objectweb/asm/Label;)V 41 1 4 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitLocalVariable (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;I)V 4097 1 1557 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode visitLineNumber (ILorg/objectweb/asm/Label;)V 2273 1 4040 0 0
+ciMethod org/objectweb/asm/tree/MethodNode visitMaxs (II)V 3073 1 468 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode getLabelNode (Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/tree/LabelNode; 4097 1 12931 0 0
+ciMethod org/objectweb/asm/tree/MethodNode getLabelNodes ([Lorg/objectweb/asm/Label;)[Lorg/objectweb/asm/tree/LabelNode; 145 1577 14 0 -1
+ciMethod org/objectweb/asm/tree/MethodNode getLabelNodes ([Ljava/lang/Object;)[Ljava/lang/Object; 3673 16385 1878 0 0
+ciMethod org/objectweb/asm/tree/AbstractInsnNode <init> (I)V 4097 1 25057 0 0
+ciMethod org/objectweb/asm/tree/MethodInsnNode <init> (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V 4097 1 2259 0 0
+ciMethod org/objectweb/asm/tree/InsnNode <init> (I)V 4097 1 2814 0 -1
+ciMethod org/objectweb/asm/Frame <init> ()V 0 0 1 0 -1
+ciMethod org/objectweb/asm/Frame a (Lorg/objectweb/asm/ClassWriter;I[Ljava/lang/Object;I[Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/Frame a (IILorg/objectweb/asm/ClassWriter;Lorg/objectweb/asm/Item;)V 0 0 1 0 -1
+ciMethod org/objectweb/asm/Type <init> (I[CII)V 921 1 132 0 -1
+ciMethod org/objectweb/asm/Type getObjectType (Ljava/lang/String;)Lorg/objectweb/asm/Type; 17 1 2 0 0
+ciMethod org/objectweb/asm/Type getMethodType (Ljava/lang/String;)Lorg/objectweb/asm/Type; 0 0 1 0 0
+ciMethod org/objectweb/asm/Type getArgumentsAndReturnSizes (Ljava/lang/String;)I 1433 25121 1334 0 0
+ciMethod org/objectweb/asm/Type a ([CI)Lorg/objectweb/asm/Type; 1697 31489 292 0 -1
+ciMethod org/objectweb/asm/tree/LineNumberNode <init> (ILorg/objectweb/asm/tree/LabelNode;)V 2273 1 4040 0 0
+ciMethod org/objectweb/asm/tree/LookupSwitchInsnNode <init> (Lorg/objectweb/asm/tree/LabelNode;[I[Lorg/objectweb/asm/tree/LabelNode;)V 41 73 4 0 -1
+ciMethod org/objectweb/asm/tree/TableSwitchInsnNode <init> (IILorg/objectweb/asm/tree/LabelNode;[Lorg/objectweb/asm/tree/LabelNode;)V 105 1 10 0 -1
+ciMethod org/objectweb/asm/tree/IincInsnNode <init> (II)V 633 1 39 0 -1
+ciMethod org/objectweb/asm/tree/FrameNode <init> (II[Ljava/lang/Object;I[Ljava/lang/Object;)V 4097 1 939 0 0
+ciMethod org/objectweb/asm/tree/FrameNode asList (I[Ljava/lang/Object;)Ljava/util/List; 2529 1 388 0 0
+ciMethod org/objectweb/asm/tree/LabelNode <init> ()V 1513 1 4642 0 0
+ciMethod org/objectweb/asm/tree/JumpInsnNode <init> (ILorg/objectweb/asm/tree/LabelNode;)V 3345 1 1190 0 0
+ciMethod org/objectweb/asm/tree/IntInsnNode <init> (II)V 2097 1 403 0 -1
+ciMethod org/objectweb/asm/tree/LdcInsnNode <init> (Ljava/lang/Object;)V 2089 1 171 0 -1
+ciMethod org/objectweb/asm/tree/VarInsnNode <init> (II)V 2361 1 5596 0 -1
+ciMethod org/objectweb/asm/tree/TypeInsnNode <init> (ILjava/lang/String;)V 2089 1 296 0 -1
+ciMethod org/objectweb/asm/tree/FieldInsnNode <init> (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 4097 1 3213 0 0
+ciMethod org/objectweb/asm/tree/InsnList add (Lorg/objectweb/asm/tree/AbstractInsnNode;)V 4097 1 6778 0 160
+ciMethod org/objectweb/asm/tree/LocalVariableNode <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/tree/LabelNode;Lorg/objectweb/asm/tree/LabelNode;I)V 4097 1 1557 0 -1
+ciMethod org/objectweb/asm/Edge <init> ()V 2169 1 4959 0 0
+ciMethodData org/objectweb/asm/ClassReader readUnsignedShort (I)I 2 61593 orig 264 56 157 92 103 0 0 0 0 160 181 98 19 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 1 0 0 153 122 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/objectweb/asm/ClassReader readUTF8 (I[C)Ljava/lang/String; 2 9753 orig 264 56 157 92 103 0 0 0 0 120 184 98 19 0 0 0 0 88 2 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 177 40 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 0 1 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 32 0x20005 0x0 0x17c7e750 0x2516 0x0 0x0 0x70007 0x28 0x40 0x24ee 0xb0007 0x24c6 0x20 0x28 0x1a0007 0x4da 0x20 0x1fec 0x320005 0x0 0x17c7e750 0x4da 0x0 0x0 0x360002 0x4da 0x3a0004 0x0 0x15974700 0x4da 0x0 0x0 oops 3

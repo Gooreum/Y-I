@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:id="@+id/reply_img"
+            />
+        <TextView
+            android:id="@+id/textView"
+            android:text="Mingu Seo"
+            android:layout_alignParentTop="true"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/reply_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/reply_count"
+            android:text="Mingu Seo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView"
+            android:padding="8dp"
+            android:text="this is item with child"
+            android:layout_toRightOf="@id/reply_img"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_history"
+            android:text="1일"
+            android:padding="8dp"
+            android:layout_below="@id/txt_message"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_reply"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt_history"
+            android:layout_below="@id/txt_message"
+            android:text="댓글달기"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mCardView"
+
+    app:cardCornerRadius="4dp"
+   >
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d7d7d7"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prof_pic"
+            android:layout_marginTop="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+
+            android:layout_toRightOf="@id/prof_pic"
+
+            android:layout_alignTop="@id/prof_pic"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이름"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_below="@id/username"
+            android:id="@+id/recommend_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/prof_pic"
+            android:text="추천내용"
+            android:textSize="15dp"
+            android:maxLines="2"
+            />
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/recommend_content"
+            android:layout_toRightOf="@id/prof_pic"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d7d7d7"
+
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

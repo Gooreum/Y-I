@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+  >
+    <!--app:cardCornerRadius="4dp"
+    app:cardElevation="8dp-->
+    <RelativeLayout
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/prof_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/text_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/prof_pic"
+            android:text="nova"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_username"
+            android:layout_toRightOf="@id/prof_pic"
+            android:text="nova"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/text_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gps"
+            android:layout_toRightOf="@id/prof_pic"
+            android:text="nova"
+            android:textSize="11dp" />
+
+        <!--    <view
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:id="@+id/view"
+            android:layout_below="@id/text_history"/>
+-->
+
+        <ImageView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@id/text_history"
+            android:layout_marginTop="10dp"
+            android:background="#d7d7d7" />
+
+        <TextView
+            android:id="@+id/txt_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="모집기간 : "
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/apply_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/txt_apply"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txt_dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_apply"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="개발기간 : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dev_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_apply"
+            android:layout_toRightOf="@id/txt_dev"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txt_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_dev"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="모집인원 : "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/member_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_dev"
+            android:layout_toRightOf="@id/txt_member"
+            android:text="" />
+
+        <LinearLayout
+            android:id="@+id/line_more_recruit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/member_num"
+            >
+            <TextView
+                android:id="@+id/txt_more_recruit_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="추가모집 인원  : "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/more_recruit_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/member_num"
+                android:layout_toRightOf="@id/txt_more_recruit_member"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_recruiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추가모집중"
+                android:layout_toRightOf="@id/more_recruit_num"
+                android:textStyle="bold"
+                android:background="@android:color/holo_red_light"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/member_num"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line_more_recruit"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="nova" />
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="nova"
+            app:colorClickableText="@android:color/holo_blue_light"
+            app:trimExpandedText="더보기"
+            app:trimLines="5"
+
+            app:trimMode="trimModeLength" />
+
+        <HorizontalScrollView
+
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/text_content"
+            android:layout_marginTop="50dp">
+
+
+            <LinearLayout
+                android:id="@+id/line_pic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="10dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <!--   </RelativeLayout>-->
+        <TextView
+            android:id="@+id/txtOptionDigit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:text="&#8942;"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txtOptionDigit_not_myproject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:text="&#8942;"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:visibility="gone" />
+
+
+        <!--      <RelativeLayout
+                  android:id="@+id/buttons"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_above="@+id/texts">-->
+        <ImageView
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/scrollView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#EBEDEF" />
+
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/view2"
+            android:layout_marginTop="19dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            >
+
+            <ImageView
+                android:id="@+id/btn_like"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:text="좋아요"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_star_border_black_24dp" />
+
+            <ImageView
+                android:id="@+id/btn_unlike"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:text="좋아요 취소"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_star_black_24dp" />
+
+            <ImageView
+                android:id="@+id/btn_reply"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:text="댓글"
+
+                app:srcCompat="@drawable/ic_chat_bubble_outline_black_24dp" />
+
+            <LinearLayout
+                android:id="@+id/line_join"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/btn_join"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:src="@drawable/human_greeting"
+                    android:visibility="visible"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/btn_unjoin"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:src="@drawable/human_greeting2"
+                    android:text="신청취소"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btn_confirm_project"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:src="@drawable/account_check"
+                android:text="모집확인"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/btn_project_completed"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:src="@drawable/close_circle"
+                android:text="모집완료"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+        <!--    </RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/texts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#EBEDEF" />
+
+            <RelativeLayout
+                android:id="@+id/line_texts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view3"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:focusable="false"
+                    android:src="@drawable/ic_star_border_black_24dp"
+                    android:text="추천 "
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_reply"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_like"
+                    android:focusable="false"
+                    android:src="@drawable/ic_star_black_24dp"
+                    android:text="댓글 "
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_join"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_reply"
+                    android:focusable="false"
+                    android:src="@drawable/ic_chat_bubble_outline_black_24dp"
+                    android:text="인원 "
+                    android:visibility="visible"
+
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/join_member_pic"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/txt_reply"
+                    android:layout_toRightOf="@id/txt_join"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

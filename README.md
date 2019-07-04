@@ -12,22 +12,24 @@
 
 * **웹서버** : Apache
 
+* **프로토콜** : HTTP, TCP/IP
+
 * **데이터베이스** : MySQL
 
 * **서버 호스팅** : AWS EC2
 
 * **네트워크 통신** : Volley
 
-* **라이브러리** : gson, picasso, glide
+* **라이브러리** : gson, picasso, glide, FCM, Google Login, Expandable Recyclerview,
 
 ## 주요기능
 **1.회원가입 및 로그인**
- * Facebook_account_kit의 문자인증 서비스를 이용하여, 회원가입을 할 수 있도록 하였습니다. 
+ * 일반 회원가입을 통하거나, 구글 로그인을 통해 서비스를 이용할 수 있습니다.
 
 <img src="https://github.com/Gooreum/ShareProject/blob/master/readmeImages/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EB%B0%8F%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif" width="700" style="max-width:100%;" aligncenter />
 
 **2.팔로우**
- * 로그인도 마찬가지로 문자인증을 통해 할 수 있습니다. 
+ * 팔로우 관계를 맺어 상대방의 게시글을 받아볼 수 있습니다. 
 
 <img src="https://github.com/Gooreum/ShareProject/blob/master/readmeImages/%ED%8C%94%EB%A1%9C%EC%9A%B0.gif" width="700" style="max-width:100%;" />
 

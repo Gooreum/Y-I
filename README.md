@@ -26,7 +26,7 @@
 **1.회원가입 및 로그인**
  * 일반 회원가입을 통하거나, 구글 로그인을 통해 서비스를 이용할 수 있습니다.
 
-<img src="https://github.com/Gooreum/ShareProject/blob/master/readmeImages/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EB%B0%8F%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif" width="700" style="max-width:100%;" aligncenter />
+<img src="https://github.com/Gooreum/Y_I/blob/master/readmeImages/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EB%B0%8F%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.gif" width="700" style="max-width:100%;" aligncenter />
 
 **2.팔로우**
  * 팔로우를 맺은 사용자의 게시글을 볼 수 있습니다. 
